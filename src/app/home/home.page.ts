@@ -59,6 +59,7 @@ export class HomePage implements OnInit {
       title: 'Pomodoro App',
       text: message,
       foreground: true,
+      sound: 'res://platform_default'  // <- this plays the default device notification sound
     });
   }
 }
